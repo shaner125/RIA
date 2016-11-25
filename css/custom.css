@@ -1,0 +1,18 @@
+body{
+	background-image: url("../images/background.jpg");
+}
+
+#headr{
+	color: white;
+}
+#subheadr{
+	color:white;
+}
+
+p {
+
+color: white;
+font-size: 130%;
+font-family: 'Vesper Libre', serif;
+}
+
