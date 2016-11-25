@@ -1,0 +1,231 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="" type="text/xsl" ?>
+<horoscopes>
+  
+    <starSign sign="Aries">
+      <name>Aries</name>
+     <date>
+		<from>
+			March 21
+		</from>
+		<to>
+			April 19
+		</to>
+	 </date>
+	 <horoscope>You will be loaded with energy and will do something extraordinary today.
+	 Investment made today will enhance your prosperity and financial security.
+	 Children could make the day very hard for you.
+	 Use affection weapon to keep their interest and avoid any undue stress. Remember love begets love.
+	 Love journey sweet but short lived Tact will be required while handling colleagues.
+	 Someone from your past is likely to contact you and make it a memorable day. 
+	 If your plan of meeting someone got ruined today because of your spouse's health, you will get to spend even a better time together.</horoscope> <!-- INSERT HOROSCOPE HERE -->
+      </starSign>
+	  
+      <starSign sign="Taurus">
+      <name>Taurus</name>
+     <date>
+		<from>
+			April 20
+		</from>
+		<to>
+			May 20
+		</to>
+	 </date>
+	 <horoscope>Sort out your tension for mental peace.
+	 Today you can easily raise capital- collect outstanding debts- or ask for funds to work on new projects.
+	 Excellent day to plan out things for your progeny. Show your love by placing flower at your window.
+	 Keep away from signing any new joint ventures and partnerships.
+	 Excellent day for social as well as religious functions. 
+	 You keep getting jokes on married life over social media, 
+	 but today you will get really emotional when the startling beautiful facts about your married life will come afore you.</horoscope> <!-- INSERT HOROSCOPE HERE -->
+   </starSign>
+   
+      <starSign sign="Gemini">
+      <name>Gemini</name>
+     <date>
+		<from>
+			May 21
+		</from>
+		<to>
+			June 20
+		</to>
+	 </date>
+	 <horoscope>Try to improve your health and overall personality for a better life.
+	 Incase you are looking for ways to make little extra money- invest in secure financial schemes.
+	 News of family secret may surprise you. All those complaints and grudges in your relationship will
+	 vanish on this amazing day. Your competitive nature will help you stay ahead of others.
+	 Travel plans if any-might get postponed due to last minute changes in your schedule. 
+	 Your marriage will see a wonderful phase during this day.</horoscope> <!-- INSERT HOROSCOPE HERE -->
+   </starSign>
+   
+      <starSign sign="Cancer">
+      <name>Cancer</name>
+     <date>
+		<from>
+			June 21
+		</from>
+		<to>
+			July 22
+		</to>
+	 </date>
+	 <horoscope>You will sacrifice your happiness for the sake of your family.
+	 But it has to be devoid of any interest and expectations. 
+	 Travel for some prove hectic and stressful-but financially rewarding.
+	 Home-improvement projects should be considered. Don't waste your time in finding fault in your beloved.
+	 Good day to start a new venture in partnership. All are likely to be benefited. 
+	 But think before joining hands with partners. Unexpected travel for some proves hectic and stressful.
+	 If you got angry on your spouse, you will get a quick response. So, stay controlled.</horoscope> <!-- INSERT HOROSCOPE HERE -->
+   </starSign>
+   
+      <starSign sign="Leo">
+      <name>Leo</name>
+     <date>
+		<from>
+			July 23
+		</from>
+		<to>
+			August 22
+		</to>
+	 </date>
+	 <horoscope>A day of recreation and fun. Monetary gains will be from one than one source.
+	 You are most likely to face criticism at home because of your careless behaviour.
+	 Physical existence is now of no consideration, as you feel yourself into each other in love all the
+	 time. Do not sign any business/legal document without reading between the lines.
+	 Volunteering work that you do today will help not only those you assist but will help you look at
+	 yourself more positively. Marriages are made in heaven, your spouse will prove this to you today.</horoscope> <!-- INSERT HOROSCOPE HERE -->
+   </starSign>
+   
+      <starSign sign="Virgo">
+      <name>Virgo</name>
+     <date>
+		<from>
+			August 23
+		</from>
+		<to>
+			September 22
+		</to>
+	 </date>
+	 <horoscope>Your rash behaviour may spoil the relationship with wife. 
+	 Think the repercussions of your behaviour before doing anything silly.
+	 If possible go away to change your mood. Perfect day to purchase items that would grow in value.
+	 Make arrangement with your spouse to finish off pending household work. 
+	 Wrong communication or a message might make your day dull. 
+	 Long ambition to join marketing field may materialize.
+	 It will give you tremendous joy and remove all hassles which you had faced during procuring the job.
+	 Your ability to act swiftly to problems will bring you recognition.
+	 Your spouse might make an issue of something he/she heard in the neighborhood.</horoscope> <!-- INSERT HOROSCOPE HERE -->
+   </starSign>
+   
+      <starSign sign="Libra">
+      <name>Libra</name>
+     <date>
+		<from>
+			September 23
+		</from>
+		<to>
+			October 22
+		</to>
+	 </date>
+	 <horoscope>Creative work will keep you relaxed. Unexpected bills will increase financial burden.
+	 Loved ones might be annoyed if you do not spend time with them.
+	 You can experience the pain of love. Use your intellectual power to your benefit. 
+	 It will help you in completing professional projects and give new ideas. 
+	 Rash driving and risk should not be taken while on the road. 
+	 Your spouse might come under the adverse influence of others and fight with you, but your love and 
+	 compassion will settle everything down.</horoscope> <!-- INSERT HOROSCOPE HERE -->
+   </starSign>
+   
+      <starSign sign="Scorpio">
+      <name>Scorpio</name>
+     <date>
+		<from>
+			October 23
+		</from>
+		<to>
+			November 21
+		</to>
+	 </date>
+	 <horoscope>Keep yourself involved in activities that will help you keep your cool.
+	 Financial problems ruin your ability to think constructively.
+	 Gift from an overseas relative will make you happy. 
+	 New romance seems certain for some- Your love will blossom your life. No matter how much your seniors
+	 or colleagues provoke you, just be like Buddha at work today. Good day to visit a lawyer to take some 
+	 legal advice. The day is exclusive in your regular married life, you will experience something really
+	 unusual today.</horoscope> <!-- INSERT HOROSCOPE HERE -->
+   </starSign>
+   
+      <starSign sign="Sagittarius">
+      <name>Sagittarius</name>
+     <date>
+		<from>
+			November 22
+		</from>
+		<to>
+			December 21
+		</to>
+	 </date>
+	 <horoscope>Work pressure and discord at home might bring some stress.
+	 You should look twice at investment schemes that are presented to you today. 
+	 Your timely help would save someone's life. 
+	 The news would make your family members proud and would also inspire them.
+	 Love is limitless, love is boundless; you must have heard these things before.
+	 But today, you will experience it. There's little time to rest today-as pending task will keep you 
+	 occupied. Some of you will undertake a distant journey-which will be hectic-but highly rewarding.
+	 Life is going to be really wonderful today because your spouse has planned something special.</horoscope> <!-- INSERT HOROSCOPE HERE -->
+   </starSign>
+   
+      <starSign sign="Capricorn">
+      <name>Capricorn</name>
+     <date>
+		<from>
+			December 22
+		</from>
+		<to> 
+			January 19
+		</to>
+	 </date>
+	 <horoscope>Avoid overstraining as it would only lead to stress and exhaustion. 
+	 Don't overspend too much in order to impress others. You are most likely to make some major changes
+	 in and around your house today. Today, you will know that your love partner is the one who will love
+	 you till eternity. Opportunities to show your skills will be with you today. Travel will be beneficial
+	 but expensive. You will have a series of quarrels that will make you feel like giving up your
+	 relationship. However, do not give in that easily.</horoscope> <!-- INSERT HOROSCOPE HERE -->
+   </starSign>
+   
+      <starSign sign="Aquarius">
+      <name>Aquarius</name>
+     <date>
+		<from>
+			January 20
+		</from>
+		<to>
+			February 18
+		</to>
+	 </date>
+	 <horoscope>Spend some time with close friends in order to relax.
+	 You will come up with brilliant new ideas that will bring financial gains. 
+	 Give priorities to the needs of family members. Involve yourself to share their joy and sorrow to 
+	 realize them that you care for them. You will be popular and easily attract members of the opposite sex.
+	 Today you will be in the spotlight- and success is well within your reach. 
+	 Secondhand news should be verified. You will refresh the old beautiful days of courtship,
+	 chasing, and wooing in your married life.</horoscope> <!-- INSERT HOROSCOPE HERE -->
+   </starSign>
+   
+      <starSign sign="Pisces">
+      <name>Pisces</name>
+     <date>
+		<from>
+			February 19
+		</from>
+		<to>
+			March 20
+		</to>
+	 </date>
+	 <horoscope>Self medication could cause drug dependency.
+	 Take a physician advice before taking any drug-otherwise chances of drug dependency are high.
+	 You will like to overspend on others. Proper dialogue and co-operation will improve relationship with
+	 spouse. Likely to experience a different kind of romance. Looks like you might cause a big harm to your company today; just be aware. Secondhand news should be verified. 
+	 It's a good day to romance with your better half.</horoscope> <!-- INSERT HOROSCOPE HERE -->
+   </starSign>
+	
+</horoscopes>
