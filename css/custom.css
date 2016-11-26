@@ -3,7 +3,7 @@ body{
 }
 
 #headr{
-	color: white;
+	 font-size: 225%;
 }
 #subheadr{
 	color:white;
@@ -13,6 +13,10 @@ p {
 
 color: white;
 font-size: 130%;
+text-align: justify;
 font-family: 'Vesper Libre', serif;
+background-color:rgba(0, 0, 0, 0.5);
+padding: 7px;
 }
+
 
