@@ -159,29 +159,36 @@ $(document).ready(function(){
         <!-- Projects Row -->
 
 			
-			 <?php echo '<p></p>'; ?>
+	
         <div class="row">
             <div class="col-md-3 portfolio-item">
                    <button id ="btn0"> <img class="img-responsive" src="images/aries.jpg" alt=""></button>
-				   <p id = "ho0" style="display:none" color="white">Keep yourself involved in activities that will help you keep your cool.
-	 Financial problems ruin your ability to think constructively.
-	 Gift from an overseas relative will make you happy. 
-	 New romance seems certain for some- Your love will blossom your life. No matter how much your seniors
-	 or colleagues provoke you, just be like Buddha at work today. Good day to visit a lawyer to take some 
-	 legal advice. The day is exclusive in your regular married life, you will experience something really
-	 unusual today.</p>
+				   <p id = "ho0" style="display:none" color="white">
+						 <?php
+$xml=simplexml_load_file("mondayXML.xml") or die("Error: Cannot create object");
+echo $xml->starSign[0]->horoscope . "<br>";
+?></p>
            </div>
              <div class="col-md-3 portfolio-item">
                    <button id ="btn1"> <img class="img-responsive" src="images/bull.jpg" alt=""></button>
-				   <p id = "ho1" style="display:none">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dapibus imperdiet turpis ut placerat. Donec vel eros sit amet ante pulvinar elementum a a eros. Proin mattis nec ex non aliquet. Vivamus vulputate faucibus ornare. Integer pharetra libero sem, tincidunt porttitor augue commodo ut. Pellentesque cursus vehicula neque, sit amet pulvinar justo aliquam id. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam quis tempor lacus. Vivamus eu mi et lorem suscipit posuere.</p>
+				   <p id = "ho1" style="display:none"><?php
+$xml=simplexml_load_file("mondayXML.xml") or die("Error: Cannot create object");
+echo $xml->starSign[1]->horoscope . "<br>";
+?><</p>
            </div>
             <div class="col-md-3 portfolio-item">
                    <button id ="btn2"> <img class="img-responsive" src="images/twins.jpg" alt=""></button>
-				   <p id = "ho2" style="display:none">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dapibus imperdiet turpis ut placerat. Donec vel eros sit amet ante pulvinar elementum a a eros. Proin mattis nec ex non aliquet. Vivamus vulputate faucibus ornare. Integer pharetra libero sem, tincidunt porttitor augue commodo ut. Pellentesque cursus vehicula neque, sit amet pulvinar justo aliquam id. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam quis tempor lacus. Vivamus eu mi et lorem suscipit posuere.</p>
+				   <p id = "ho2" style="display:none"><?php
+$xml=simplexml_load_file("mondayXML.xml") or die("Error: Cannot create object");
+echo $xml->starSign[2]->horoscope . "<br>";
+?><</p>
            </div>
             <div class="col-md-3 portfolio-item">
                    <button id ="btn3"> <img class="img-responsive" src="images/cancer.jpg" alt=""></button>
-				   <p id = "ho3" style="display:none">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dapibus imperdiet turpis ut placerat. Donec vel eros sit amet ante pulvinar elementum a a eros. Proin mattis nec ex non aliquet. Vivamus vulputate faucibus ornare. Integer pharetra libero sem, tincidunt porttitor augue commodo ut. Pellentesque cursus vehicula neque, sit amet pulvinar justo aliquam id. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam quis tempor lacus. Vivamus eu mi et lorem suscipit posuere.</p>
+				   <p id = "ho3" style="display:none"><?php
+$xml=simplexml_load_file("mondayXML.xml") or die("Error: Cannot create object");
+echo $xml->starSign[3]->horoscope . "<br>";
+?><</p>
            </div>
         </div>
         <!-- /.row -->
@@ -190,19 +197,31 @@ $(document).ready(function(){
         <div class="row">
             <div class="col-md-3 portfolio-item">
                    <button id ="btn4"> <img class="img-responsive" src="images/lion.jpg" alt=""></button>
-				   <p id = "ho4" style="display:none">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dapibus imperdiet turpis ut placerat. Donec vel eros sit amet ante pulvinar elementum a a eros. Proin mattis nec ex non aliquet. Vivamus vulputate faucibus ornare. Integer pharetra libero sem, tincidunt porttitor augue commodo ut. Pellentesque cursus vehicula neque, sit amet pulvinar justo aliquam id. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam quis tempor lacus. Vivamus eu mi et lorem suscipit posuere.</p>
+				   <p id = "ho4" style="display:none"><?php
+$xml=simplexml_load_file("mondayXML.xml") or die("Error: Cannot create object");
+echo $xml->starSign[4]->horoscope . "<br>";
+?><</p>
            </div>
              <div class="col-md-3 portfolio-item">
                    <button id ="btn5"> <img class="img-responsive" src="images/virgin.jpg" alt=""></button>
-				   <p id = "ho5" style="display:none">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dapibus imperdiet turpis ut placerat. Donec vel eros sit amet ante pulvinar elementum a a eros. Proin mattis nec ex non aliquet. Vivamus vulputate faucibus ornare. Integer pharetra libero sem, tincidunt porttitor augue commodo ut. Pellentesque cursus vehicula neque, sit amet pulvinar justo aliquam id. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam quis tempor lacus. Vivamus eu mi et lorem suscipit posuere.</p>
+				   <p id = "ho5" style="display:none"><?php
+$xml=simplexml_load_file("mondayXML.xml") or die("Error: Cannot create object");
+echo $xml->starSign[5]->horoscope . "<br>";
+?><</p>
            </div>
             <div class="col-md-3 portfolio-item">
                    <button id ="btn6"> <img class="img-responsive" src="images/horizontal.jpg" alt=""></button>
-				   <p id = "ho6" style="display:none">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dapibus imperdiet turpis ut placerat. Donec vel eros sit amet ante pulvinar elementum a a eros. Proin mattis nec ex non aliquet. Vivamus vulputate faucibus ornare. Integer pharetra libero sem, tincidunt porttitor augue commodo ut. Pellentesque cursus vehicula neque, sit amet pulvinar justo aliquam id. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam quis tempor lacus. Vivamus eu mi et lorem suscipit posuere.</p>
+				   <p id = "ho6" style="display:none"><?php
+$xml=simplexml_load_file("mondayXML.xml") or die("Error: Cannot create object");
+echo $xml->starSign[6]->horoscope . "<br>";
+?><</p>
            </div>
             <div class="col-md-3 portfolio-item">
                    <button id ="btn7"> <img class="img-responsive" src="images/scorpio.jpg" alt=""></button>
-				   <p id = "ho7" style="display:none">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dapibus imperdiet turpis ut placerat. Donec vel eros sit amet ante pulvinar elementum a a eros. Proin mattis nec ex non aliquet. Vivamus vulputate faucibus ornare. Integer pharetra libero sem, tincidunt porttitor augue commodo ut. Pellentesque cursus vehicula neque, sit amet pulvinar justo aliquam id. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam quis tempor lacus. Vivamus eu mi et lorem suscipit posuere.</p>
+				   <p id = "ho7" style="display:none"><?php
+$xml=simplexml_load_file("mondayXML.xml") or die("Error: Cannot create object");
+echo $xml->starSign[7]->horoscope . "<br>";
+?><</p>
            </div>
         </div>
         <!-- /.row -->
@@ -211,19 +230,31 @@ $(document).ready(function(){
         <div class="row">
             <div class="col-md-3 portfolio-item">
                    <button id ="btn8"> <img class="img-responsive" src="images/contactors.jpg" alt=""></button>
-				   <p id = "ho8" style="display:none">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dapibus imperdiet turpis ut placerat. Donec vel eros sit amet ante pulvinar elementum a a eros. Proin mattis nec ex non aliquet. Vivamus vulputate faucibus ornare. Integer pharetra libero sem, tincidunt porttitor augue commodo ut. Pellentesque cursus vehicula neque, sit amet pulvinar justo aliquam id. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam quis tempor lacus. Vivamus eu mi et lorem suscipit posuere.</p>
+				   <p id = "ho8" style="display:none"><?php
+$xml=simplexml_load_file("mondayXML.xml") or die("Error: Cannot create object");
+echo $xml->starSign[8]->horoscope . "<br>";
+?><</p>
            </div>
              <div class="col-md-3 portfolio-item">
                    <button id ="btn9"> <img class="img-responsive" src="images/capricorn.jpg" alt=""></button>
-				   <p id = "ho9" style="display:none">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dapibus imperdiet turpis ut placerat. Donec vel eros sit amet ante pulvinar elementum a a eros. Proin mattis nec ex non aliquet. Vivamus vulputate faucibus ornare. Integer pharetra libero sem, tincidunt porttitor augue commodo ut. Pellentesque cursus vehicula neque, sit amet pulvinar justo aliquam id. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam quis tempor lacus. Vivamus eu mi et lorem suscipit posuere.</p>
+				   <p id = "ho9" style="display:none"><?php
+$xml=simplexml_load_file("mondayXML.xml") or die("Error: Cannot create object");
+echo $xml->starSign[9]->horoscope . "<br>";
+?><</p>
            </div>
             <div class="col-md-3 portfolio-item">
                    <button id ="btn10"> <img class="img-responsive" src="images/aquarius.jpg" alt=""></button>
-				   <p id = "ho10" style="display:none">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dapibus imperdiet turpis ut placerat. Donec vel eros sit amet ante pulvinar elementum a a eros. Proin mattis nec ex non aliquet. Vivamus vulputate faucibus ornare. Integer pharetra libero sem, tincidunt porttitor augue commodo ut. Pellentesque cursus vehicula neque, sit amet pulvinar justo aliquam id. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam quis tempor lacus. Vivamus eu mi et lorem suscipit posuere.</p>
+				   <p id = "ho10" style="display:none"><?php
+$xml=simplexml_load_file("mondayXML.xml") or die("Error: Cannot create object");
+echo $xml->starSign[10]->horoscope . "<br>";
+?><</p>
            </div>
             <div class="col-md-3 portfolio-item">
                    <button id ="btn11"> <img class="img-responsive" src="images/fish.jpg" alt=""></button>
-				   <p id = "ho11" style="display:none">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dapibus imperdiet turpis ut placerat. Donec vel eros sit amet ante pulvinar elementum a a eros. Proin mattis nec ex non aliquet. Vivamus vulputate faucibus ornare. Integer pharetra libero sem, tincidunt porttitor augue commodo ut. Pellentesque cursus vehicula neque, sit amet pulvinar justo aliquam id. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam quis tempor lacus. Vivamus eu mi et lorem suscipit posuere.</p>
+				   <p id = "ho11" style="display:none"><?php
+$xml=simplexml_load_file("mondayXML.xml") or die("Error: Cannot create object");
+echo $xml->starSign[11]->horoscope . "<br>";
+?><</p>
            </div>
         </div>
         <!-- /.row -->
