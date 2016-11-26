@@ -131,7 +131,7 @@ $(document).ready(function(){
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#" id = "headr">Your Daily Horoscope</a>
+                <a class="navbar-brand" href="index.html" id = "headr">Your Daily Horoscope</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
          
@@ -155,31 +155,51 @@ $(document).ready(function(){
         <div class="row">
             <div class="col-md-3 portfolio-item">
                    <button id ="btn0"> <img class="img-responsive" src="images/aries.jpg" alt=""></button>
+							<h3 id = "heading">
+								<?php
+$xml=simplexml_load_file("mondayXML.xml") or die("Error: Cannot create object");
+echo $xml->starSign[0]->date->from . " - " . $xml->starSign[0]->date->to;
+?></h3>
 				   <p id = "ho0" style="display:none" color="white">
 						 <?php
 $xml=simplexml_load_file("mondayXML.xml") or die("Error: Cannot create object");
-echo $xml->starSign[0]->horoscope . "<br>";
+echo $xml->starSign[0]->horoscope;
 ?></p>
            </div>
              <div class="col-md-3 portfolio-item">
                    <button id ="btn1"> <img class="img-responsive" src="images/bull.jpg" alt=""></button>
+							 				<h3 id = "heading">
+								<?php
+$xml=simplexml_load_file("mondayXML.xml") or die("Error: Cannot create object");
+echo $xml->starSign[1]->date->from . " - " . $xml->starSign[0]->date->to;
+?></h3>
 				   <p id = "ho1" style="display:none"><?php
 $xml=simplexml_load_file("mondayXML.xml") or die("Error: Cannot create object");
-echo $xml->starSign[1]->horoscope . "<br>";
+echo $xml->starSign[1]->horoscope;
 ?></p>
            </div>
             <div class="col-md-3 portfolio-item">
                    <button id ="btn2"> <img class="img-responsive" src="images/twins.jpg" alt=""></button>
+											<h3 id = "heading">
+								<?php
+$xml=simplexml_load_file("mondayXML.xml") or die("Error: Cannot create object");
+echo $xml->starSign[2]->date->from . " - " . $xml->starSign[0]->date->to;
+?></h3>
 				   <p id = "ho2" style="display:none"><?php
 $xml=simplexml_load_file("mondayXML.xml") or die("Error: Cannot create object");
-echo $xml->starSign[2]->horoscope . "<br>";
+echo $xml->starSign[2]->horoscope ;
 ?></p>
            </div>
             <div class="col-md-3 portfolio-item">
                    <button id ="btn3"> <img class="img-responsive" src="images/cancer.jpg" alt=""></button>
+											<h3 id = "heading">
+								<?php
+$xml=simplexml_load_file("mondayXML.xml") or die("Error: Cannot create object");
+echo $xml->starSign[3]->date->from . " - " . $xml->starSign[0]->date->to;
+?></h3>
 				   <p id = "ho3" style="display:none"><?php
 $xml=simplexml_load_file("mondayXML.xml") or die("Error: Cannot create object");
-echo $xml->starSign[3]->horoscope . "<br>";
+echo $xml->starSign[3]->horoscope ;
 ?></p>
            </div>
         </div>
@@ -189,30 +209,50 @@ echo $xml->starSign[3]->horoscope . "<br>";
         <div class="row">
             <div class="col-md-3 portfolio-item">
                    <button id ="btn4"> <img class="img-responsive" src="images/lion.jpg" alt=""></button>
+											<h3 id = "heading">
+								<?php
+$xml=simplexml_load_file("mondayXML.xml") or die("Error: Cannot create object");
+echo $xml->starSign[4]->date->from . " - " . $xml->starSign[0]->date->to;
+?></h3>
 				   <p id = "ho4" style="display:none"><?php
 $xml=simplexml_load_file("mondayXML.xml") or die("Error: Cannot create object");
-echo $xml->starSign[4]->horoscope . "<br>";
+echo $xml->starSign[4]->horoscope ;
 ?></p>
            </div>
              <div class="col-md-3 portfolio-item">
                    <button id ="btn5"> <img class="img-responsive" src="images/virgin.jpg" alt=""></button>
+							 				<h3 id = "heading">
+								<?php
+$xml=simplexml_load_file("mondayXML.xml") or die("Error: Cannot create object");
+echo $xml->starSign[5]->date->from . " - " . $xml->starSign[0]->date->to;
+?></h3>
 				   <p id = "ho5" style="display:none"><?php
 $xml=simplexml_load_file("mondayXML.xml") or die("Error: Cannot create object");
-echo $xml->starSign[5]->horoscope . "<br>";
+echo $xml->starSign[5]->horoscope ;
 ?></p>
            </div>
             <div class="col-md-3 portfolio-item">
                    <button id ="btn6"> <img class="img-responsive" src="images/horizontal.jpg" alt=""></button>
+											<h3 id = "heading">
+								<?php
+$xml=simplexml_load_file("mondayXML.xml") or die("Error: Cannot create object");
+echo $xml->starSign[6]->date->from . " - " . $xml->starSign[0]->date->to;
+?></h3>
 				   <p id = "ho6" style="display:none"><?php
 $xml=simplexml_load_file("mondayXML.xml") or die("Error: Cannot create object");
-echo $xml->starSign[6]->horoscope . "<br>";
+echo $xml->starSign[6]->horoscope ;
 ?></p>
            </div>
             <div class="col-md-3 portfolio-item">
                    <button id ="btn7"> <img class="img-responsive" src="images/scorpio.jpg" alt=""></button>
+											<h3 id = "heading">
+								<?php
+$xml=simplexml_load_file("mondayXML.xml") or die("Error: Cannot create object");
+echo $xml->starSign[7]->date->from . " - " . $xml->starSign[0]->date->to;
+?></h3>
 				   <p id = "ho7" style="display:none"><?php
 $xml=simplexml_load_file("mondayXML.xml") or die("Error: Cannot create object");
-echo $xml->starSign[7]->horoscope . "<br>";
+echo $xml->starSign[7]->horoscope ;
 ?></p>
            </div>
         </div>
@@ -222,30 +262,50 @@ echo $xml->starSign[7]->horoscope . "<br>";
         <div class="row">
             <div class="col-md-3 portfolio-item">
                    <button id ="btn8"> <img class="img-responsive" src="images/contactors.jpg" alt=""></button>
+											<h3 id = "heading">
+								<?php
+$xml=simplexml_load_file("mondayXML.xml") or die("Error: Cannot create object");
+echo $xml->starSign[8]->date->from . " - " . $xml->starSign[0]->date->to;
+?></h3>
 				   <p id = "ho8" style="display:none"><?php
 $xml=simplexml_load_file("mondayXML.xml") or die("Error: Cannot create object");
-echo $xml->starSign[8]->horoscope . "<br>";
+echo $xml->starSign[8]->horoscope ;
 ?></p>
            </div>
              <div class="col-md-3 portfolio-item">
                    <button id ="btn9"> <img class="img-responsive" src="images/capricorn.jpg" alt=""></button>
+							 				<h3 id = "heading">
+								<?php
+$xml=simplexml_load_file("mondayXML.xml") or die("Error: Cannot create object");
+echo $xml->starSign[9]->date->from . " - " . $xml->starSign[0]->date->to;
+?></h3>
 				   <p id = "ho9" style="display:none"><?php
 $xml=simplexml_load_file("mondayXML.xml") or die("Error: Cannot create object");
-echo $xml->starSign[9]->horoscope . "<br>";
+echo $xml->starSign[9]->horoscope ;
 ?></p>
            </div>
             <div class="col-md-3 portfolio-item">
                    <button id ="btn10"> <img class="img-responsive" src="images/aquarius.jpg" alt=""></button>
+											<h3 id = "heading">
+								<?php
+$xml=simplexml_load_file("mondayXML.xml") or die("Error: Cannot create object");
+echo $xml->starSign[10]->date->from . " - " . $xml->starSign[0]->date->to;
+?></h3>
 				   <p id = "ho10" style="display:none"><?php
 $xml=simplexml_load_file("mondayXML.xml") or die("Error: Cannot create object");
-echo $xml->starSign[10]->horoscope . "<br>";
+echo $xml->starSign[10]->horoscope ;
 ?></p>
            </div>
             <div class="col-md-3 portfolio-item">
                    <button id ="btn11"> <img class="img-responsive" src="images/fish.jpg" alt=""></button>
+											<h3 id = "heading">
+								<?php
+$xml=simplexml_load_file("mondayXML.xml") or die("Error: Cannot create object");
+echo $xml->starSign[11]->date->from . " - " . $xml->starSign[0]->date->to;
+?></h3>
 				   <p id = "ho11" style="display:none"><?php
 $xml=simplexml_load_file("mondayXML.xml") or die("Error: Cannot create object");
-echo $xml->starSign[11]->horoscope . "<br>";
+echo $xml->starSign[11]->horoscope ;
 ?></p>
            </div>
         </div>

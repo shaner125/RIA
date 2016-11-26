@@ -17,6 +17,11 @@ text-align: justify;
 font-family: 'Vesper Libre', serif;
 background-color:rgba(0, 0, 0, 0.5);
 padding: 7px;
+margin-top: 7px;
 }
 
+#heading {
+	text-align: center;
+	color: white;
+}
 
