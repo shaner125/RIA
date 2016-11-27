@@ -16,8 +16,12 @@ font-size: 130%;
 text-align: justify;
 font-family: 'Vesper Libre', serif;
 background-color:rgba(0, 0, 0, 0.5);
-padding: 7px;
+padding-bottom: 7px;
+padding-top: 7px;
+padding-left: 10px;
+padding-right: 10px;
 margin-top: 7px;
+-webkit-border-radius: 20px;-moz-border-radius: 20px;border-radius: 20px;
 }
 
 #heading {
