@@ -132,6 +132,22 @@ $(document).ready(function(){
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="index.html" id = "headr">Your Daily Horoscope</a>
+											<h2 id="Date">	<script>
+<!-- Begin
+var now = new Date();
+var days = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
+var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+var date = ((now.getDate()<10) ? "0" : "")+ now.getDate();
+function fourdigits(number) {
+    return (number < 1000) ? number + 1900 : number;
+}
+today =  days[now.getDay()] + ", " +
+         months[now.getMonth()] + " " +
+         date + ", " +
+         (fourdigits(now.getYear())) ;
+document.write(today);
+//  End -->
+</script></h2>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
          
@@ -150,22 +166,7 @@ $(document).ready(function(){
 
         <!-- Projects Row -->
 
-				<h2 id="Date">	<script>
-<!-- Begin
-var now = new Date();
-var days = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
-var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
-var date = ((now.getDate()<10) ? "0" : "")+ now.getDate();
-function fourdigits(number) {
-    return (number < 1000) ? number + 1900 : number;
-}
-today =  days[now.getDay()] + ", " +
-         months[now.getMonth()] + " " +
-         date + ", " +
-         (fourdigits(now.getYear())) ;
-document.write(today);
-//  End -->
-</script></h2>
+
 	
         <div class="row">
             <div class="col-md-3 portfolio-item">
